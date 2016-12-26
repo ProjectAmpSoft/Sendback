@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ampsoft.sendback">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/sendback_ico"
+        android:label="센드백"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".DrawerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SaveActicity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".lib.BackPressed"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity
+            android:name=".login.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".login.Join1Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".login.Join2Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".login.Join3Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".login.Join4Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".login.SearchSelectActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity
+            android:name=".login.IdSearchActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".login.IdSearchOkActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".login.PwSearchActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".login.PwChangeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".login.PwSearchOkActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".login.AgreementActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".login.PrivacyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".guide.GuideActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".etc.ProfileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".etc.NoticeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".etc.CreditActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".etc.CouponActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".etc.ChangePwActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".etc.ChangePwOkActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".etc.ChangeEmailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".etc.ChangeEmailOkActivity"
+            android:screenOrientation="portrait" />
+
+    </application>
+
+</manifest>
